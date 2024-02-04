@@ -1,0 +1,174 @@
+/* ==UserStyle==
+@name           Lioden WebGame Dark/OLED Theme
+@namespace      github.com/Knighto00/Stylus_Lioden-Dark-OLED-Theme
+@description    A modest dark/OLED theme for lioden.com website. A web game.
+@author         Knighto00 ->> (https://github.com/Knighto00)
+@homepageURL    https://github.com/Knighto00/Stylus_Lioden-Dark-OLED-Theme
+@supportURL     https://github.com/Knighto00/Stylus_Lioden-Dark-OLED-Theme/issues
+@version        1.0.0
+@license        GNU GPLv3
+@preprocessor   stylus
+
+@var checkbox disableBackgroundImage"Disable Background image"                         			1
+
+@var color    pureBlackColor        "Pure black color"                                      #000000
+
+@var color    rightSidebarBkgColor	"Right Sidebar Background Color"					 	#171717
+
+@var color    bodyTextColor			"Text Color"								  	 		#dbdbdb
+
+@var color    bordersColor          "Borders Color"                                         #2f2f2f
+==/UserStyle== */
+
+@-moz-document domain("lioden.com") {
+	/* Homepage */
+		/* Top/Navbars */
+		.topbar
+		{background-color: pureBlackColor !important}
+
+		.navbar-default
+		.navbar-toggle:focus
+		{background-color: pureBlackColor !important}
+
+		.navbar-default
+		.navbar-toggle
+		{border-color: bordersColor !important}
+
+		.navbar-toggle:hover
+		{background-color: bordersColor !important}
+
+		.breadcrumb
+		{background-color: pureBlackColor !important}
+
+		.alert-success
+		{background-color: pureBlackColor !important; border-color: bordersColor !important}
+
+		.alert-danger
+		{background-color: pureBlackColor !important; border-color: bordersColor !important}
+
+		/* Main Content */
+		body
+		{color: bodyTextColor !important}
+
+		.main
+		{border: none !important; box-shadow: none !important}
+
+		.col-md-9
+		{background-color: pureBlackColor !important}
+
+		.row
+		{background-color: pureBlackColor !important}
+
+		if (disableBackgroundImage == 1)
+		{
+			body
+			{background-image:none !important; background-color:pureBlackColor !important}
+		}
+
+		.item
+		{background-color: pureBlackColor !important}
+
+		/* Right Sidebar */
+		.sidebar
+		{background-color: pureBlackColor !important}
+
+		.col-md-3 .panel
+		{background-color: rightSidebarBkgColor !important; border: none !important; box-shadow: none !important}
+
+		.progress
+		{background-color: pureBlackColor !important}
+
+		.progress div
+		{color: bodyTextColor !important}
+
+		.s-chat-sidebar #label_currentChannel
+		{background-color: rightSidebarBkgColor !important}
+
+	/* Den Page */
+		#comment
+		{background-color: rightSidebarBkgColor !important}
+
+		.inner-table .right
+		{background-color: rightSidebarBkgColor !important}
+
+		.cave-grid
+		.mound-grid
+		{background-color: pureBlackColor !important; border-color: bordersColor !important}
+
+		.table th
+		{background-color: rightSidebarBkgColor !important}
+
+		.attack-lost
+		{background-color: pureBlackColor !important}
+
+		.table .right_odd
+		{background-color: pureBlackColor !important}
+
+		textarea
+		{background-color: pureBlackColor !important}
+
+		input
+		{background-color: pureBlackColor !important}
+
+	/* Crossroads Page */
+		/* Cub Training Page */
+			div .left
+			{background-color: pureBlackColor !important}
+
+			select
+			{background-color: pureBlackColor !important; color: bodyTextColor !important}
+
+		/* Trading Center Page */
+			.input-group-addon
+			{background-color: pureBlackColor !important}
+
+			.form-control
+			{color: bodyTextColor !important}
+
+			.combo-list-block
+			.combo-selection-container
+			{background-color: pureBlackColor !important}
+
+			.combo-select-row[selected]
+			.combo-select-row:hover
+			{background-color: rightSidebarBkgColor !important}
+
+		/* Monkey Business Page */
+			div .feature
+			{background-color: pureBlackColor !important; border-color: bordersColor !important}
+
+			.page-description
+			{border-color: bordersColor !important}
+
+			.alert-warning
+			{background-color: rightSidebarBkgColor !important; border-color: bordersColor !important}
+
+	/* Oasis Page */
+		.item-surround
+		{background-color: pureBlackColor !important}
+
+	/* FAQ Page */
+		.alert-info
+		{background-color: pureBlackColor !important; border-color: bordersColor !important}
+
+	/* Bookmarks Page */
+		.table .right
+		{background-color: pureBlackColor !important}
+
+	/* Achievements Page */
+		.achievement-header
+		.achievement-body
+		{border-color: bordersColor !important}
+
+		.achievement-header
+		{background-color: rightSidebarBkgColor !important}
+
+		.achievement-body
+		{background-color: pureBlackColor !important}
+
+	/*
+	Made with love by Knighto00 <3
+	I hope you like it! :D
+	Enjoy!
+	*/
+}
